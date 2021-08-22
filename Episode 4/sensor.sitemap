@@ -1,0 +1,10 @@
+
+sitemap sensor label="My home automation" {
+
+     Frame label="Date" {
+        Text item=Date
+     }
+     Frame label="Sensor" {
+      Text item=mqtt_kitchen_gas icon="gas"
+     }
+}
