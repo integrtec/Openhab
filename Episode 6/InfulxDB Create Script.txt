@@ -1,0 +1,7 @@
+CREATE DATABASE openhab_db
+CREATE USER admin WITH PASSWORD 'your password' WITH ALL PRIVILEGES
+CREATE USER openhab WITH PASSWORD 'your password'
+CREATE USER grafana WITH PASSWORD 'your password'
+GRANT ALL ON openhab_db TO openhab
+GRANT READ ON openhab_db TO grafana
+exit
